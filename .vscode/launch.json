@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug ConvertToWord.ps1",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}\\ConvertToWord.ps1",
+            "args": ["examples\\example-a.md"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Debug Test-Converter.ps1",
+            "type": "PowerShell", 
+            "request": "launch",
+            "script": "${workspaceFolder}\\Test-Converter.ps1",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
